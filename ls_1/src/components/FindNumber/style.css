@@ -3,3 +3,8 @@
     color:black;
     margin: 50px;
 }
+input {
+    padding: 12px 16px;
+    border: 2px solid #9a9696;
+    border-radius: 8px;
+}
