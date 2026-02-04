@@ -1,0 +1,20 @@
+.all_floot {
+   
+    background: violet;
+   border-radius: 15px;
+  
+
+}
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin: 50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+  object-fit: cover;
+   border-radius: 15px 10px 0 0;
+}
