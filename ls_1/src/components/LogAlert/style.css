@@ -1,0 +1,13 @@
+.log {
+    font-size: 30px;
+    color:black;
+}
+
+span {
+    color:rgb(151, 57, 238);
+}
+
+.number {
+    background: rgb(73, 73, 237);
+    color:white;
+}
