@@ -3,6 +3,7 @@ import './App.css'
 import logo_home from './assets/home.jpg'
 import LogAlert from './components/LogAlert/LogAlert.jsx'
 import FindNumber from './components/FindNumber/FindNumber.jsx';
+import Mouse from './components/Mouse/Mouse.jsx';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
      <img src={logo_home} alt="dhdhd" />
      <LogAlert/>
      <FindNumber/>
+     <Mouse/>
     </>
   )
 }
