@@ -26,7 +26,7 @@ const ViewFloot = () => {
     <div className='main'>
         {list_floot.map((item) => {
             return <div className="all_floot">
-                <img src={item.url} alt="home" />
+                <img className='img-floot' src={item.url} alt="home" />
                 <h4>{item.price}</h4>
                 <h5>{item.address}</h5>
             </div>

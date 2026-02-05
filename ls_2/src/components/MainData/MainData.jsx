@@ -13,9 +13,11 @@ const MainData = () => {
     }
   return (
     <div>
+        <button>click</button>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit rem obcaecati ducimus unde quo. Consequuntur, doloremque tenetur tempora reprehenderit, iure laborum, quod unde distinctio aliquid adipisci placeat rem. Assumenda, architecto!</p>
         {list_colors.map((item) => {
-            <button onClick={() => colors_log_fn(item)} style={{color: item}}>{item}</button>
+
+            return <button key={item} onClick={() => colors_log_fn(item)} style={{color: item}}>{item}</button>
         })}
     <ViewUser/>
     <ViewFloot/>
