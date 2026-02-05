@@ -164,7 +164,7 @@ const ViewUsers = () => {
         console.log(scientist); 
     }
   return (
-    // <div className="logo"><h1>DZ2</h1></div>
+    // <h1>DZ2</h1>
     <div className='main_table'>
         {list_scientists.map((item)=>{
         return <div className="all_scientist" onClick={()=> scientist_func(item)} key={item.name}>
@@ -173,7 +173,7 @@ const ViewUsers = () => {
             <p>{item.discovery}</p>
             <p>{item.age}</p>
             <p>{item.subject}</p>
-            {item.isPremium && <h5 className='prem'><span class="glyphs--crown-bold"></span>{item.isPremium}</h5>}
+            {item.isPremium && <h5 className='prem'><span className="glyphs--crown-bold"></span>{item.isPremium}</h5>}
         </div>
     })}
     </div>

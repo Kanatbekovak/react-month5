@@ -33,7 +33,7 @@ const ViewUser = () => {
   return (
     <div className='main_block'>
         {list_users.map((item) => {
-            return <div className='every_user'  key={item.name}>
+            return <div className='every_user' key={item.name}>
                 <img src={item.url} alt={item.name} />
                 <h5>{item.name}</h5>
                 <p>{item.age}</p>

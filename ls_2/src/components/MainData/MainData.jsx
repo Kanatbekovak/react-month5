@@ -19,8 +19,6 @@ const MainData = () => {
 
             return <button key={item} onClick={() => colors_log_fn(item)} style={{color: item}}>{item}</button>
         })}
-    <ViewUser/>
-    <ViewFloot/>
     </div>
 
   )
