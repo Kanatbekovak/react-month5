@@ -1,0 +1,13 @@
+.main_counter {
+    display: flex;
+    gap: 20px;
+}
+button{
+    background-color: aqua;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center;
+}
