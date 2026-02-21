@@ -1,0 +1,30 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 12px 15px;
+  border: 2px solid #e0d7ee;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border-color: #9b6dff;
+  outline: none;
+  background: #fdfbff;
+}
+
+button {
+  background: #9b6dff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}

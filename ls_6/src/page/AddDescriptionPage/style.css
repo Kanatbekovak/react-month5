@@ -1,0 +1,17 @@
+textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 15px;
+  border: 2px solid #e0d7ee;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 15px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+textarea:focus {
+  border-color: #9b6dff;
+  outline: none;
+}
+
