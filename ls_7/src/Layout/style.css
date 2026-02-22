@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    gap: 30px;
+}
+.btns {
+    padding: 10px;
+    margin: 10px;
+    background: #1212;
+    border-radius: 10px;
+}
+.menu{
+    padding-top: 50px;
+}
+.active_item {
+    background:blue;
+    color: #f5f5f5;
+}
