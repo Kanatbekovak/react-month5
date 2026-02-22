@@ -1,9 +1,10 @@
 import React from 'react'
+import InputControl from '../../components/InputControl/InputControl'
 
 const MainPage = () => {
   return (
     <div>
-        <h1>Hello</h1>
+        <InputControl/>
     </div>
   )
 }

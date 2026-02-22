@@ -1,0 +1,76 @@
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color:#9b6dff;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid rgba(228, 186, 235, 0.5);
+}
+
+input {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 16px;
+    border: 2px solid #eee;
+    border-radius: 12px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    background: #fdfbff;
+}
+
+.modern-input:focus {
+    border-color: #9b6dff;
+    box-shadow: 0 0 0 4px rgba(155, 109, 255, 0.1);
+}
+
+
+.button-grid {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-ctrl {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-focus {
+    background: #f0e6ff;
+    color: #7a52cc;
+}
+
+.btn-clear {
+    background: #fff0f0;
+    color: #ff4d4d;
+}
+
+.btn-fill {
+    background: #9b6dff;
+    color: white;
+    box-shadow: 0 4px 12px rgba(155, 109, 255, 0.3);
+}
+
